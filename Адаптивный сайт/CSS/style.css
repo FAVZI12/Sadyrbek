@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.header {
+    background: #403C3B;
+    height: 99px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #FFFFFF1A
+}
+.header-nav{
+    display: flex;
+    max-width: 1440px;
+    width: 1700px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.header-inside{
+    display: flex;
+}
+.log {
+    display: flex;
+    align-items: center;
+    margin-right: 72px;
+}
+
+.log h1 {
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 5px;
+    font-family: "Gilroy_b", sans-serif;
+}
+.search{
+    display: flex;
+    align-items: center;
+    height: 52px;
+    width: 555px;
+    border-radius: 10px;
+    background: #504B4A;
+    padding: 0 17px 0 23px;
+    margin-right: 30px;
+}
+.search-icon {
+    cursor: pointer;
+}
+.input {
+    background: transparent;
+    width: 480px;
+    border: none;
+    padding: 0 10px;
+    color: #CFCFCF;
+    font-size: 18px;
+    font-family: "Gilroy_l", sans-serif;
+    outline: none;
+}
+.input::placeholder {
+    color: #CFCFCF;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: "Gilroy_l", sans-serif;
+    src: url(../img/svg-icons/Location.svg);
+}
+.phone {
+    display: flex;
+    align-items: center;
+}
+.phone img {
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+}
+.phone-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.phone-text a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Gilroy_b" sans-serif;
+    font-weight: 700;
+}
+.phone-text span {
+    font-family: "Gilroy_ul", sans-serif;
+    color: #CFCFCF;
+    font-size: 15px;
+}
+.bean {
+    width: 149px;
+    height: 52px;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    color: #fff;
+    font-family:    "Gilroy", sans-serif;
+    font-size: 17px;
+}
+.basket{width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 50px;
+    color: black;
+    position: relative;
+    
+}
+.basket::before {
+    content: '';
+    left: -13px;
+    width: 1px;
+    height: 38px;
+    background: #fff;
+    position: absolute;
+    opacity: .4;
+}
